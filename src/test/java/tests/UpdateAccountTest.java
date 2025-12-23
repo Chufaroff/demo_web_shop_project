@@ -1,6 +1,6 @@
 package tests;
 
-import chufarov.projects.api_classes.AuthApiDemoWebShop;
+import api.AuthApiDemoWebShop;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
 import io.restassured.response.Response;
