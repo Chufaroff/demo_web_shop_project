@@ -5,6 +5,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import steps.DemoWebShopSteps;
 
@@ -14,6 +15,7 @@ import static io.qameta.allure.Allure.step;
 
 @Owner("Chufarov Bogdan")
 @Story("Композиция API и UI тестов")
+@Tag("smoke")
 @DisplayName("Гибридные тесты (API + UI)")
 public class HybridApiAndUiTests extends TestBase {
 
